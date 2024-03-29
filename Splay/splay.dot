@@ -1,0 +1,23 @@
+digraph MyTree
+{
+	bgcolor = darkgreen;
+	graph [splines = splines];
+	node  [width = 2, style = filled, color = wheat];
+	edge  [color = darkgreen, fontsize = 15];
+
+	subgraph cluster0
+    {
+		bgcolor = yellowgreen;		height  = 20		style   = filled;
+		103034792968912 [shape=oval, height = 1, label = "26"];
+		103034792968912 -> 103034792969008 [color = red];
+		103034792969008 [shape=oval, height = 1, label = "5"];
+		103034792969008 -> 103034792968864 [color = cyan];
+		103034792968864 [shape=oval, height = 1, label = "12"];
+		103034792968912 -> 103034792969104 [color = cyan];
+		103034792969104 [shape=oval, height = 1, label = "82"];
+		103034792969104 -> 103034792968960 [color = red];
+		103034792968960 [shape=oval, height = 1, label = "59"];
+		103034792969104 -> 103034792969056 [color = cyan];
+		103034792969056 [shape=oval, height = 1, label = "99"];
+	}
+}

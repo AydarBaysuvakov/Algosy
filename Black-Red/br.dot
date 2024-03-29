@@ -1,0 +1,31 @@
+digraph MyTree
+{
+	bgcolor = darkgreen;
+	graph [splines = splines];
+	node  [width = 2, style = filled, color = wheat];
+	edge  [color = darkgreen, fontsize = 15];
+
+	subgraph cluster0
+    {
+		bgcolor = yellowgreen;		height  = 20		style   = filled;
+		100908383519488 [shape=oval, color=black, height = 1, fontcolor=white, label = "5"];
+		100908383519488 -> 100908383519440 [color = red];
+		100908383519440 [shape=oval, color=black, height = 1, fontcolor=white, label = "26"];
+		100908383519440 -> 100908383519920 [color = red];
+		100908383519920 [shape=oval, color=red, height = 1, label = "18"];
+		100908383519920 -> 100908383519392 [color = red];
+		100908383519392 [shape=oval, color=black, height = 1, fontcolor=white, label = "12"];
+		100908383519920 -> 100908383519968 [color = cyan];
+		100908383519968 [shape=oval, color=black, height = 1, fontcolor=white, label = "25"];
+		100908383519440 -> 100908383519728 [color = cyan];
+		100908383519728 [shape=oval, color=black, height = 1, fontcolor=white, label = "56"];
+		100908383519728 -> 100908383519776 [color = red];
+		100908383519776 [shape=oval, color=red, height = 1, label = "39"];
+		100908383519488 -> 100908383519824 [color = cyan];
+		100908383519824 [shape=oval, color=black, height = 1, fontcolor=white, label = "83"];
+		100908383519824 -> 100908383519632 [color = red];
+		100908383519632 [shape=oval, color=black, height = 1, fontcolor=white, label = "81"];
+		100908383519824 -> 100908383519584 [color = cyan];
+		100908383519584 [shape=oval, color=black, height = 1, fontcolor=white, label = "99"];
+	}
+}

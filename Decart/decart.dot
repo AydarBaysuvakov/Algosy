@@ -1,0 +1,51 @@
+digraph MyTree
+{
+	bgcolor = darkgreen;
+	graph [splines = splines];
+	node  [width = 2, style = filled, color = wheat];
+	edge  [color = darkgreen, fontsize = 15];
+
+	subgraph cluster0
+    {
+		bgcolor = yellowgreen;		height  = 20		style   = filled;
+		99174274012768 [shape=oval, height = 1, label = "50, 100"];
+		99174274012768 -> 99174274011808 [color = red];
+		99174274011808 [shape=oval, height = 1, label = "7, 94"];
+		99174274011808 -> 99174274011904 [color = cyan];
+		99174274011904 [shape=oval, height = 1, label = "17, 87"];
+		99174274011904 -> 99174274011856 [color = red];
+		99174274011856 [shape=oval, height = 1, label = "13, 47"];
+		99174274011904 -> 99174274012048 [color = cyan];
+		99174274012048 [shape=oval, height = 1, label = "23, 84"];
+		99174274012048 -> 99174274012000 [color = red];
+		99174274012000 [shape=oval, height = 1, label = "19, 31"];
+		99174274012000 -> 99174274011952 [color = red];
+		99174274011952 [shape=oval, height = 1, label = "18, 8"];
+		99174274012048 -> 99174274012096 [color = cyan];
+		99174274012096 [shape=oval, height = 1, label = "24, 82"];
+		99174274012096 -> 99174274012144 [color = cyan];
+		99174274012144 [shape=oval, height = 1, label = "25, 64"];
+		99174274012144 -> 99174274012240 [color = cyan];
+		99174274012240 [shape=oval, height = 1, label = "35, 41"];
+		99174274012240 -> 99174274012192 [color = red];
+		99174274012192 [shape=oval, height = 1, label = "32, 37"];
+		99174274012240 -> 99174274012288 [color = cyan];
+		99174274012288 [shape=oval, height = 1, label = "44, 3"];
+		99174274012768 -> 99174274012720 [color = cyan];
+		99174274012720 [shape=oval, height = 1, label = "98, 88"];
+		99174274012720 -> 99174274012528 [color = red];
+		99174274012528 [shape=oval, height = 1, label = "78, 72"];
+		99174274012528 -> 99174274012432 [color = red];
+		99174274012432 [shape=oval, height = 1, label = "75, 55"];
+		99174274012432 -> 99174274012336 [color = red];
+		99174274012336 [shape=oval, height = 1, label = "57, 36"];
+		99174274012336 -> 99174274012384 [color = cyan];
+		99174274012384 [shape=oval, height = 1, label = "69, 27"];
+		99174274012432 -> 99174274012480 [color = cyan];
+		99174274012480 [shape=oval, height = 1, label = "77, 33"];
+		99174274012528 -> 99174274012576 [color = cyan];
+		99174274012576 [shape=oval, height = 1, label = "80, 21"];
+		99174274012576 -> 99174274012624 [color = cyan];
+		99174274012624 [shape=oval, height = 1, label = "83, 11"];
+	}
+}
