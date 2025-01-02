@@ -8,16 +8,16 @@ digraph MyTree
 	subgraph cluster0
     {
 		bgcolor = yellowgreen;		height  = 20		style   = filled;
-		103034792968912 [shape=oval, height = 1, label = "26"];
-		103034792968912 -> 103034792969008 [color = red];
-		103034792969008 [shape=oval, height = 1, label = "5"];
-		103034792969008 -> 103034792968864 [color = cyan];
-		103034792968864 [shape=oval, height = 1, label = "12"];
-		103034792968912 -> 103034792969104 [color = cyan];
-		103034792969104 [shape=oval, height = 1, label = "82"];
-		103034792969104 -> 103034792968960 [color = red];
-		103034792968960 [shape=oval, height = 1, label = "59"];
-		103034792969104 -> 103034792969056 [color = cyan];
-		103034792969056 [shape=oval, height = 1, label = "99"];
+		103225401828048 [shape=oval, height = 1, label = "26"];
+		103225401828048 -> 103225401828144 [color = red];
+		103225401828144 [shape=oval, height = 1, label = "5"];
+		103225401828144 -> 103225401828000 [color = cyan];
+		103225401828000 [shape=oval, height = 1, label = "12"];
+		103225401828048 -> 103225401828240 [color = cyan];
+		103225401828240 [shape=oval, height = 1, label = "82"];
+		103225401828240 -> 103225401828096 [color = red];
+		103225401828096 [shape=oval, height = 1, label = "59"];
+		103225401828240 -> 103225401828192 [color = cyan];
+		103225401828192 [shape=oval, height = 1, label = "99"];
 	}
 }
